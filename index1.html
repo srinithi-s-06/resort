@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to zara resort</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Luxury and Comfort Awaits</h2>
+        <p>Book your room and stay at our premium resort for a delightful experience.</p>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+            <h3>Deluxe Room</h3>
+            <p>Price: $150/night</p>
+            <button>Book Now</button>
+        </div>
+        <div class="room">
+            <h3>Suite Room</h3>
+            <p>Price: $250/night</p>
+            <button>Book Now</button>
+        </div>
+        <div class="room">
+            <h3>Presidential Suite</h3>
+            <p>Price: $500/night</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book Your Stay</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="room">Select Room:</label>
+            <select id="room" name="room">
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Suite Room</option>
+                <option value="presidential">Presidential Suite</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@zararesort.com | Phone: 9237465281</p>
+    </footer>
+</body>
+</html>
